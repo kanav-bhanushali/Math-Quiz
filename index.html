@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Math Quiz</title>
+	<title>The Math Quiz!</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -13,9 +12,10 @@
 <script src="game_login.js"></script>
 </head>
 <body>
+	<div class="container">
 	<center>
-<h1>The Math Quiz!</h1>
-<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+<h1>Math Quiz</h1>
+<div class="login_div1">
 	<h3>Player 1 Login For The Game</h3>
 	<label>
      Username:
@@ -23,11 +23,9 @@
 	<input type="text" id="player1_name" class="form-control" placeholder="Player 1 Name">
 	<br>
 </div>
-</center>
 <br>
 <br>
-<center>
-<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+<div class="login_div2">
 <h3>Player 2 Login For The Game</h3>
 <label>
 	Username:
@@ -39,5 +37,6 @@
 <br>
 <button style="width:30%"; class="btn btn-primary" onclick="adduser()">Login</button>
 </center>
+</div>
 </body>
 </html>
